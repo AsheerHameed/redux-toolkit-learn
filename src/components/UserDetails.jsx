@@ -9,7 +9,6 @@ const UserDetails = () => {
   const dispatch = useDispatch();
 
   const addNewUser = (data) => {
-    console.log(data); 
     dispatch(addUser(data));
   };
   return (
